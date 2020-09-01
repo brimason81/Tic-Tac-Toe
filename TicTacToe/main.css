@@ -1,0 +1,89 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  width: 610px;
+  height: 610px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ff652f;
+}
+
+.grid div {
+  height: 200px;
+  width: 200px;
+  background-color: #272727;
+  margin-bottom: 5px;
+}
+
+#player {
+  color: #ff652f;
+}
+
+/*
+.playerX { 
+    background-image: ;
+}
+
+.playerO {
+    background-image: ;
+}
+*/
+/*.board {
+    position: absolute;
+    height:  50vw;
+    width:  50vw;
+
+    &__x1 {
+        position: absolute;
+        top:1rem;
+        right: 25rem;
+        height: 500px;
+        width:  3px;
+        background: set-text-color($primary-color);
+
+    }
+    &__x2 {
+        position: absolute;
+        top: 1rem;
+        right: 5rem;
+        height: 500px;
+        width:  3px;
+        background: set-text-color($primary-color);
+    }
+    &__y1 {
+        position: absolute;
+        top:5rem;
+        right: 1rem;
+        height: 3px;
+        width:  500px;
+        background: set-text-color($primary-color);
+    }
+    &__y2 {
+        position: absolute;
+        top: 20rem;
+        right: 1rem;
+        height: 3px;
+        width:  500px;
+        background: set-text-color($primary-color);
+    }
+}*/
+main {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #272727;
+}
+/*# sourceMappingURL=main.css.map */
