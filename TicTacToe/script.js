@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const squares = document.querySelectorAll('.grid div');
     const playerDisplay = document.querySelector('#player');
-    let currentPlayer = "Player X";
+    let currentPlayer = 'playerX';
 
     squares.forEach( square => {
         square.addEventListener('click', clickOutcome);

@@ -12,19 +12,26 @@
     background-color: $primary-color;
     margin-bottom: 5px;
 }
-
+/*
 #player {
     color: $secondary-color;
 }
-/*
+*/
 .playerX { 
-    background-image: ;
+  background-image: url('cross.jpg');
+  height:  200px;
+  width:  200px;
 }
 
 .playerO {
-    background-image: ;
+ background-image: url('circle.jpg');
+ height: 200px;
+ width:  200px;
 }
-*/
+p {
+    color: white;
+}
+
 
 
 /*.board {

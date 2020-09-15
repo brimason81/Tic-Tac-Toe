@@ -26,19 +26,27 @@
   margin-bottom: 5px;
 }
 
-#player {
-  color: #ff652f;
-}
-
 /*
-.playerX { 
-    background-image: ;
+#player {
+    color: $secondary-color;
+}
+*/
+.playerX {
+  background-image: url("cross.jpg");
+  height: 200px;
+  width: 200px;
 }
 
 .playerO {
-    background-image: ;
+  background-image: url("circle.jpg");
+  height: 200px;
+  width: 200px;
 }
-*/
+
+p {
+  color: white;
+}
+
 /*.board {
     position: absolute;
     height:  50vw;
